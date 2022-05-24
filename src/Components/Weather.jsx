@@ -10,7 +10,7 @@ function Weather() {
   const [dataAll, setData] = useState({});
   const [base, setBase] = useState({});
   const [cords, setCords] = useState({});
-  const [search, setSearch] = useState();
+  const [search, setSearch] = useState("Bangladesh");
   const [hourly, setHourly] = useState([]);
   const [daily, setDaily] = useState([]);
   const [lang, setLang] = useState("en");
